@@ -1,0 +1,8 @@
+Origin: A 我是谁的deb备份源
+Label: whoami
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: 我是谁的deb备份源
