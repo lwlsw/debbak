@@ -73,7 +73,7 @@ function GetControlInfo($filename){
 	unlink($tmp_tar);
 	unlink('tmp\control');
 	unlink($tar_name);
-	$full_filename = $dir . '/' . $filename;
+	$full_filename = './' . $dir . '/' . $filename;
 	$package_string = makePackage($full_filename,$control_string);
 	return $package_string;
 }
@@ -89,8 +89,11 @@ function makePackage($filename,$control_string){
 	}
 	if (!isset($control['Package']) || !isset($control['Version']))
 		return false;
+	$control['Depiction'] = str_ireplace('http://repo.auxiliumdev.com/','https://lwlsw.github.io/repo/',$control['Depiction']);
 	$control['Size'] = filesize($filename);
 	$control['MD5sum'] = md5_file($filename);
+	$control['SHA256'] = hash_file('sha256',$filename);
+	$control['SHA512'] = hash_file('sha512',$filename);
 	if ($control['MD5sum'] === false)
 		return false;
 	$control["Filename"] = $filename;
