@@ -1394,7 +1394,6 @@ Filename: ./CyDown/com.adamseiter.animationsbefastplus_1.1_iphoneos-arm.deb
 
 Package: com.alexpng.7days-antirevoke
 Name: 7Days - AntiRevoke
-Filename: ./CyDown/com.alexpng.7days_0.0.1-1+debug_iphoneos-arm.deb
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Description: Stop and prevent revokes.
@@ -1408,6 +1407,7 @@ Size: 4656
 MD5sum: 254ceb665a53edbf3a53246355f56ecd
 SHA256: c53bc0359c068add23f2fef024982f019b6667139ec64ad22f237b9588c78215
 SHA512: d09f4f1c143beff1cccd074d79afcb1cd8ada80726a4646d042f8fd04113c2896ea5548a8dcf59f02d7062ab1bae9bc4cec1612d8b57a3921a929a28281a8ea5
+Filename: ./CyDown/com.alexpng.7days_0.0.1-1+debug_iphoneos-arm.deb
 
 Package: com.anthopak.pancake
 Name: PanCake
@@ -1875,7 +1875,6 @@ Maintainer: Auxilium Team (macs@auxilium.com)
 Depends: mobilesubstrate
 Conflicts: com.m4cs.ezccbeta
 Architecture: iphoneos-arm
-Filename: ./CyDown/com.auxilium.ezcc_1.2.4_iphoneos-arm.deb
 Description: EzCC Module Tweak for iOS 11! Allows you to launch apps and activate system commands from the Control Center
 Name: EzCC
 Author: Auxilium Team
@@ -1884,6 +1883,7 @@ Size: 128548
 MD5sum: 64eb8681bef8e99ee4e840475aed3996
 SHA256: ba53c979508708a53f2d5ade384cb5bb7f82d35898b7ebd4e96726aec8dc7190
 SHA512: 0a01f06dafbdb06142d482e7a617af813de33adacd5256c6bedb324425a5064b78b6c0f13af7404ba11a348c0348ee00e1a972ad17846148d26f690bfab166fa
+Filename: ./CyDown/com.auxilium.ezcc_1.2.4_iphoneos-arm.deb
 
 Package: com.awsiiq.Asbury
 Name: Asbury
@@ -2498,9 +2498,10 @@ Priority: optional
 Architecture: iphoneos-arm
 Author: c1d3r
 dev: c1d3r
-Depiction: 
+Depiction
 Maintainer: c1d3r <c1d3rdev@gmail.com>
 Icon: 
+Depiction: 
 Size: 1426330
 MD5sum: fd0ec18348c922d3a5fa652e0dc84e95
 SHA256: 50d81195b9b1ad3100ec0a24467a467eee67ef5e31f9cb133affc302a754ed3d
@@ -2513,16 +2514,16 @@ Version: 1.7
 Description: A better way to multitask!
 Section: Tweaks
 Depends: firmware (>= 10.0), mobilesubstrate, com.rpetrich.rocketbootstrap, applist
-Conflicts: 
-Replaces: 
+Conflicts
+Replaces
 Priority: optional
 Architecture: iphoneos-arm
 Author: c1d3r
 dev: c1d3r
-Homepage: 
+Homepage
 Depiction: https://c1d3r.com/repo/depictions/?p=com.c1d3r.pulloverpro
 Maintainer: c1d3r <c1d3rdev@gmail.com>
-Icon: 
+Icon
 Size: 2080654
 MD5sum: d185cdfe8c640e60de569cb547e7f1c9
 SHA256: c1417ec23b3d0f7833176ac1a1bb84730ed07a3a708305f0a8f79e7b19ddf889
@@ -2932,15 +2933,15 @@ Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-12.2
 Section: Tweaks
 Depends: firmware (>= 11.0), mobilesubstrate
 Conflicts: com.unlimapps.uaupdatetools
-Replaces: 
+Replaces
 Priority: optional
 Architecture: iphoneos-arm
 Author: CokePokes
-dev: 
-Homepage: 
+dev
+Homepage
 Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
 Maintainer: CokePokes
-Icon: 
+Icon
 Size: 1320492
 MD5sum: b3201af1744133cb79bf080c145998ea
 SHA256: daab5e2b1b0a6d644fb8ad560571208decce4b510f5741193e0892f0806a632c
@@ -4460,7 +4461,6 @@ Filename: ./CyDown/com.eclipsex.cn_5.0.9-1_iphoneos-arm.deb
 Package: com.enduniverse.cyextenderinstaller
 Version: 2.3
 Architecture: iphoneos-arm
-Filename: ./CyDown/com.enduniverse.cyextenderinstaller_2.3_iphoneos-arm.deb
 Maintainer: Dillan <dillan@enduniverse.com>
 Section: System
 Description: Installs Cydia Extender<br><b>DISCLAIMER: THIS IS UNOFFICIAL SOFTWARE NOT AFFILIATED WITH SaurikIT!</b><br/>This is a console line tool.<br/>In order to use this, you need to use MTerminal or SSH or equivalent.<br/>In the command line you would type:<br/>cyextender *teamid*<br/><hr/><b>How to use this app:</b>First of all, Reinstall button doesn't work.<br/>When you first open the app, you may get an error, this error is because you aren't connected to the VPN and you can fix it by simply dismissing, and you should be automatically connected to the VPN.<br/>To use this you need to open an ipa file in the app (check screenshots), and then follow instructions<br/><hr/><b>How to find your team id (credit to /u/wafuu):</b><br/>Navigate to /var/containers/Bundle/Application/[the UUID with your yalu app in it]/yalu102.app in Filza. Open embedded.mobileprovision with the built-in text editor. Your Team ID is the 10-digit string under the ApplicationIdentifierPrefix key.<br/>
@@ -4472,6 +4472,7 @@ Size: 3078
 MD5sum: 6b9188fe7ec5fc74815558d3f08c3437
 SHA256: 454e17eb3dca56ef74c43250c770703ff4ab8429ab1b305b7ca766f9f3b46672
 SHA512: 621153fcbbdda803b625f06ae2d59f570491b61e4090663a403066ca5bdd83fce1ff4964c7248e0c29e7e2d75a87d5f84e2754f2b5cbed823a420f22a4fdaa87
+Filename: ./CyDown/com.enduniverse.cyextenderinstaller_2.3_iphoneos-arm.deb
 
 Package: com.ericasadun.utilities
 Version: 1:0.4.2-1
@@ -11002,7 +11003,7 @@ Name: 3G Unrestrictor 5 (iOS 10/9/8/7)
 Version: 5.9.10
 Architecture: iphoneos-arm
 Description: Enables WiFi-Only features on 3G & LTE
-	such as large App Store downloads, HD-Quality YouTube videos, FaceTime, and more.: 
+	such as large App Store downloads, HD-Quality YouTube videos, FaceTime, and more.
 Depiction: http://depiction.3gunrestrictor.com/3GUnrestrictor5/
 Homepage: http://depiction.3gunrestrictor.com/3GUnrestrictor5/
 Installed-Size: 5599
@@ -11678,8 +11679,8 @@ Filename: ./CyDown/com.matchstic.xenhtml_1.0_iphoneos-arm.deb
 Package: com.midnightchips.asteroid
 Name: Asteroid
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.creaturecoding.libcspreferences, com.creaturesurvive.libcscolorpicker
-Conflicts: 
-Replaces: 
+Conflicts
+Replaces
 Priority: optional
 Architecture: iphoneos-arm
 Description: System-Wide Weather.
@@ -11687,7 +11688,7 @@ Maintainer: midnightchips & the casle
 Author: midnightchips & the casle
 Section: Tweaks
 dev: midnightchips & the casle
-Icon: 
+Icon
 Version: 1.2
 Installed-Size: 1128
 Depiction: 
@@ -12123,7 +12124,7 @@ Filename: ./CyDown/com.muirey03.hive_1.0.2_iphoneos-arm.deb
 
 Package: com.muirey03.libimagepicker
 Name: libimagepicker
-Depends: 
+Depends
 Architecture: iphoneos-arm
 Description: A simple library for choosing images in preference bundles.
 Maintainer: Muirey03
@@ -13769,11 +13770,11 @@ Name: TweakConfigurator
 Depends: mobilesubstrate, preferenceloader, firmware (>=11.0)
 Architecture: iphoneos-arm
 Description: Configure tweaks yourself!
-  Features: 
-  - You can choose to not load specific tweaks in specific apps.: 
-  - You can completely disable tweaks in specified apps.: 
-  Requires iOS 11 or higher. Tested with Electra and unc0ver on iOS 11.3.1 and unc0ver on iOS 12.1.2.: 
-  Works with both Substrate and Substitute.: 
+  Features
+  - You can choose to not load specific tweaks in specific apps.
+  - You can completely disable tweaks in specified apps.
+  Requires iOS 11 or higher. Tested with Electra and unc0ver on iOS 11.3.1 and unc0ver on iOS 12.1.2.
+  Works with both Substrate and Substitute.
 Maintainer: PixelOmer
 Author: PixelOmer
 Section: Tweaks
@@ -13791,13 +13792,13 @@ Name: WeirdFlexButOK
 Depends: mobilesubstrate, firmware (>=11.0)
 Architecture: iphoneos-arm
 Description: A work-in-progress FLEX alternative.
-  This is an open sourced work-in-progress FLEX alternative.: 
-  Implemented features: 
-  - Override return values of methods with constant values without programming.: 
-  - Override arguments of methods with constant values without programming.: 
-  Planned features: 
-  - Override return values of methods with return values from other methods without programming.: 
-  - A basic app to create, manage and export patches into DEB files so they can be shared on Cydia. No custom publishing platform is planned.: 
+  This is an open sourced work-in-progress FLEX alternative.
+  Implemented features
+  - Override return values of methods with constant values without programming.
+  - Override arguments of methods with constant values without programming.
+  Planned features
+  - Override return values of methods with return values from other methods without programming.
+  - A basic app to create, manage and export patches into DEB files so they can be shared on Cydia. No custom publishing platform is planned.
 Homepage: https://github.com/pixelomer/WeirdFlexButOK
 Maintainer: PixelOmer
 Author: PixelOmer
@@ -13849,7 +13850,7 @@ Package: com.psprrom.aubeios11
 Architecture: iphoneos-arm
 Author: @psprrom <rromero-mosso@hotmail.com>
 Version: 1.2
-Conflicts: 
+Conflicts
 Depends: com.anemonetheming.anemone
 Depiction: 
 Description: A new day, a new Beginning a new experience.
@@ -21820,7 +21821,7 @@ Filename: ./CyDown/jp.akusio.milkyway_0.0.8beta_iphoneos-arm.deb
 Package: jp.ashikase.libcrashreport
 Name: libcrashreport
 Description: Library to parse and symbolicate crash reports.
-    This library is based upon CrashReporter by kennytm.: 
+    This library is based upon CrashReporter by kennytm.
 Architecture: iphoneos-arm
 Pre-Depends: firmware (>= 3.0)
 Depends: jp.ashikase.libsymbolicate (>= 1.9.0), jp.ashikase.libpackageinfo
@@ -21864,7 +21865,7 @@ Filename: ./CyDown/jp.ashikase.libpackageinfo_1.1.0.1-1_iphoneos-arm.deb
 Package: jp.ashikase.libsymbolicate
 Name: libsymbolicate
 Description: Library to symbolicate memory addresses.
-    This library is based upon CrashReporter by kennytm.: 
+    This library is based upon CrashReporter by kennytm.
 Architecture: iphoneos-arm
 Pre-Depends: firmware (>=4.0)
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsymbolicateData
@@ -26035,7 +26036,7 @@ Name: pincrush
 Version: 0.9.2-1
 Architecture: iphoneos-arm
 Description: optimize PNGs just like Apple does
- pincrush is an open, cross-platform alternative to Apple's proprietary PNG mangler, to optimize PNGs for display on iPhoneOS devices.: 
+ pincrush is an open, cross-platform alternative to Apple's proprietary PNG mangler, to optimize PNGs for display on iPhoneOS devices.
 Maintainer: Dustin Howett <dustin@howett.net>
 Author: Dustin Howett <dustin@howett.net>
 Section: Utilities
